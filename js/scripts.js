@@ -27,6 +27,15 @@ function checkForNegatives(userInput) {
 }
 
 $(document).ready(function() {
+
+  $("#introduce").click(function(event) {
+    event.preventDefault();
+    let name = $("input#userName").val();
+    $(".hideLater").hide();
+    $("#name").text(name);
+    $("#showName").show();
+  });
+
   $("#generateList").click(function(event) {
     event.preventDefault();
     let userInput = parseInt($("input#userInput").val());
