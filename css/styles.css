@@ -41,3 +41,6 @@ h1 {
   font-weight: bold;
 }
 
+.error-background {
+  background-color: tomato;
+}
