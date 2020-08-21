@@ -10,7 +10,6 @@ body {
 h1 {
   font-size: 80px;
   font-weight: bolder;
-  color: maroon;
   margin-top: 30px;
   text-align: left;
 }
@@ -45,11 +44,35 @@ h1 {
   display: none;
   font-weight: bolder;
   color: black;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .hideLater {
   font-weight: bolder;
   color: black;
-  font-size: 20px;
+  font-size: 25px;
+}
+
+#color1 {
+  color: #22c1c3;
+}
+
+#color2 {
+  color :#3e9f6a;
+}
+
+#color3 {
+  color: #91e23c;
+}
+
+#color4 {
+  color:#f441b8;
+}
+
+#color5 {
+  color: #f4b541;
+}
+
+#color6 {
+  color: #f44c41;
 }
