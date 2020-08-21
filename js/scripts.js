@@ -1,19 +1,23 @@
 function createNumberArray(userInput) {
   let numberArray = [];
   let i = 0;
-  for (let i = 0; i <= userInput; i ++) {
-    let stringNumber = i.toString();
-    if (stringNumber.includes("3")) {
-      numberArray.push(" Won't you be my neighbor?");
-    } else if (stringNumber.includes("2")) {
-      numberArray.push(" Boop!");
-    } else if (stringNumber.includes("1")) {
-      numberArray.push(" Beep!");
-    } else {
-      numberArray.push(" " + stringNumber);
+  if (!isNaN(userInput)) {
+    for (let i = 0; i <= userInput; i ++) {
+      let stringNumber = i.toString();
+      if (stringNumber.includes("3")) {
+        numberArray.push(" Won't you be my neighbor?");
+      } else if (stringNumber.includes("2")) {
+        numberArray.push(" Boop!");
+      } else if (stringNumber.includes("1")) {
+        numberArray.push(" Beep!");
+      } else {
+        numberArray.push(" " + stringNumber);
+      }
     }
+    return numberArray;
+  } else if (isNaN(userInput) || userInput.charAt(0) === "-") {
+    alert("no");
   }
-  return numberArray;
 }
 
 $(document).ready(function() {
