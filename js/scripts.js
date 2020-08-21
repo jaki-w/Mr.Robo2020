@@ -34,6 +34,15 @@ $(document).ready(function() {
     let numberArray = createNumberArray(userInput);
     $(".showLater").show();
     $("#results").text(numberArray);
-
   });
+  
+  $("#reverseList").click(function(event) {
+    event.preventDefault();
+    let userInput = parseInt($("input#userInput").val());
+    checkForNegatives(userInput);
+    let numberArray = createNumberArray(userInput).reverse();
+    $(".showLater").show();
+    $("#results").text(numberArray);
+
+  })
 });
