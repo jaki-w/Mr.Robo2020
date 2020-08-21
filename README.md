@@ -40,9 +40,9 @@ _For questions or comments please email jaki.widby@gmail.com_
 
 [X] The program replaces all numbers containing the number 3 with "Won't you be my neighbor?"
 
-[ ] The program replaces all numbers containing the number 2 with "Boop!"
+[X] The program replaces all numbers containing the number 2 with "Boop!"
 
-[ ] The program replaces all numbers containing the number 1 with "Beep!"
+[X] The program replaces all numbers containing the number 1 with "Beep!"
 
 ### License
 
