@@ -44,3 +44,7 @@ h1 {
 .error-background {
   background-color: tomato;
 }
+
+#errorMessage {
+  display: none;
+}
