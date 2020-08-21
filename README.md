@@ -36,7 +36,7 @@ _For questions or comments please email jaki.widby@gmail.com_
 
 ## Specifications
 
-[ ] The program returns a range of numbers   from 0 to the user's inputted number.
+[X] The program returns a range of numbers   from 0 to the user's inputted number.
 
 [ ] The program replaces all numbers containing the number 3 with "Won't you be my neighbor?"
 

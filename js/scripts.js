@@ -13,6 +13,5 @@ $(document).ready(function() {
     let userInput = parseInt($("input#userInput").val());
     let numberArray = createNumberArray(userInput);
     $("#showLater").text(numberArray);
-    console.log(numberArray);
   })
 })
