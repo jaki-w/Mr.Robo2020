@@ -5,6 +5,10 @@ function createNumberArray(userInput) {
     let stringNumber = i.toString();
     if (stringNumber.includes("3")) {
       numberArray.push(" Won't you be my neighbor?");
+    } else if (stringNumber.includes("2")) {
+      numberArray.push(" Boop!");
+    } else if (stringNumber.includes("1")) {
+      numberArray.push(" Beep!");
     } else {
       numberArray.push(" " + stringNumber);
     }
