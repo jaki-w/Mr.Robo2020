@@ -17,12 +17,14 @@ function createNumberArray(userInput, name) {
     return numberArray;
   } else {
     alert("Kindly enter whole numbers only!");
+    location.reload();
   }
 }
 
 function checkForNegatives(userInput) {
   if (userInput < 0) {
     alert("Kindly enter whole numbers only!");
+    location.reload();
   }
 }
 
