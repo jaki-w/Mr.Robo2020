@@ -32,7 +32,8 @@ $(document).ready(function() {
     let userInput = parseInt($("input#userInput").val());
     checkForNegatives(userInput);
     let numberArray = createNumberArray(userInput);
-    $("#showLater").text(numberArray);
+    $(".showLater").show();
+    $("#results").text(numberArray);
 
   });
 });
