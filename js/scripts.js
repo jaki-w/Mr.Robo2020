@@ -29,16 +29,15 @@ function checkForNegatives(userInput) {
 }
 
 $(document).ready(function() {
-
   $("#introduce").click(function(event) {
     event.preventDefault();
     let name = $("input#userName").val();
     if (name) {
-    $(".hideLater").hide();
-    $("#name").text(name);
-    $("#showName").show();
+      $(".hideLater").hide();
+      $("#name").text(name);
+      $("#showName").show();
     } else {
-      alert("Robots are very formal. Please, introduce yourself.")
+      alert("Robots are very formal. Please, introduce yourself.");
     }
   });
 
