@@ -6,21 +6,27 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This is a webpage that allows the user to input a number of choice and it returns a list of all numbers from 0 up to the specified number. Numbers 1, 2, and 3 are expceptions. Numbers containing 1 will be replaced with "Beep!". Numbers containing 2 will be replaced with "Boop!". Numbers containing 3 will be replaced with "Won't you be my neighbor?". Number 3 will take precedence over 1 and 2. Number 2 will take precedence over 1. _
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _To view page in browser without cloning the repository, open web browser of choice and navigate to https://jaki-w.github.io/Mr.Robo2020/_
+_or_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Open web browser and navigate to Github website._
 
-## Known Bugs
+* _Search for user jaki-w and navigate to Mr.Robo2020 repository._
 
-_ _
+* _Click the clone or download button and copy url._
+
+* _Open your machine's terminal and run $ cd desktop._
+
+* _Run $ git clone_
+
+* _Navigate to your machine's desktop and open Mr.Robo2020 folder_
+
+* _Drag the index.html file into the browser to view page._
+
 
 ## Support and contact details
 
@@ -37,24 +43,24 @@ _For questions or comments please email jaki.widby@gmail.com_
 ## Specifications
 
 [X] Spec: _The program returns a range of numbers   from 0 to the user's inputted number._
-    Input: "5"
-    Output: "0, 1, 2, 3, 4, 5"
+    * Input: "5"
+    * Output: "0, 1, 2, 3, 4, 5"
 
 [X] Spec: _The program replaces all numbers containing the number 3 with "Won't you be my neighbor?"_
-    Input: "5"
-    Output: "0, 1, 2, Won't you be my neighbor?, 4, 5"
+    * Input: "5"
+    * Output: "0, 1, 2, Won't you be my neighbor?, 4, 5"
 
 [X] Spec: _The program replaces all numbers containing the number 2 with "Boop!"_
-    Input: "5"
-    Output: "0, 1, Boop!, 3, 4, 5"
+    * Input: "5"
+    * Output: "0, 1, Boop!, 3, 4, 5"
 
 [X] Spec: _The program replaces all numbers containing the number 1 with "Beep!"_
-    Input: "5"
-    Output: "0, Beep!, 2, 3, 4, 5"
+    * Input: "5"
+    * Output: "0, Beep!, 2, 3, 4, 5"
 
 [X] Spec: _Higher number exceptions apply before lower number exceptions apply._
-    Input: "13"
-    Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?"
+    * Input: "13"
+    * Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?"
 
 ### License
 
