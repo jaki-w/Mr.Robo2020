@@ -14,3 +14,18 @@ h1 {
   margin-top: 30px;
   text-align: left;
 }
+
+h3 {
+  margin-top: 120px;
+}
+
+#cloud {
+  background: url("../img/cloud.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 70px;
+}
+#userInput {
+  margin-top: 80px;
+}
+
