@@ -1,8 +1,8 @@
-# _{Application Name}_
+# _Mr. Roboger's Neighborhood_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A number list generator, 08/21/2020_
 
-#### By _**{List of contributors}**_
+#### By _**Jaki Widby**_
 
 ## Description
 
@@ -20,21 +20,32 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_ _
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_For questions or comments please email jaki.widby@gmail.com_
 
 ## Technologies Used
 
+* _JavaScript_
 * _HTML_
 * _CSS_
 * _Bootstrap_
 * _jQuery_
 
+## Specifications
+
+[ ] The program returns a range of numbers   from 0 to the user's inputted number.
+
+[ ] The program replaces all numbers containing the number 3 with "Won't you be my neighbor?"
+
+[ ] The program replaces all numbers containing the number 2 with "Boop!"
+
+[ ] The program replaces all numbers containing the number 1 with "Beep!"
+
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*This project is licensed under the MIT license*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Jaki Widby_**
