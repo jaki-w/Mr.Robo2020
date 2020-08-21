@@ -33,9 +33,13 @@ $(document).ready(function() {
   $("#introduce").click(function(event) {
     event.preventDefault();
     let name = $("input#userName").val();
+    if (name) {
     $(".hideLater").hide();
     $("#name").text(name);
     $("#showName").show();
+    } else {
+      alert("Robots are very formal. Please, introduce yourself.")
+    }
   });
 
   $("#generateList").click(function(event) {
@@ -56,6 +60,5 @@ $(document).ready(function() {
     let numberArray = createNumberArray(userInput, name).reverse();
     $(".showLater").show();
     $("#results").text(numberArray);
-
-  })
+  });
 });
