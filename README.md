@@ -53,7 +53,7 @@ _For questions or comments please email jaki.widby@gmail.com_
 
 [X] Spec: _The program replaces all numbers containing the number 3 with "Won't you be my neighbor?"_
   * Input: "5"
-  * Output: "0, 1, 2, Won't you be my neighbor?, 4, 5"
+  * Output: "0, 1, 2, Won't you be my neighbor?" 4, 5"
 
 [X] Spec: _The program replaces all numbers containing the number 2 with "Boop!"_
   * Input: "5"
@@ -70,6 +70,14 @@ _For questions or comments please email jaki.widby@gmail.com_
 [X] Spec: _Empty fields, letters, and negative numbers will generate an error message_
   * Input: "-2"
   * Output: "Please enter a positve number"
+
+[X] Spec: _The program will collect user inputted name and display it in message for numbers containing "3"_
+  * Input: "Jaki" "3"
+  * Output: "Jaki, won't you be my neighbor?"
+
+[X] Spec: _The program can display numbers in reverse order_
+  * Input: "5"
+  * Output: "5, 4, Won't you be my neighbor?, Boop!, Beep!"
 
 ### License
 
