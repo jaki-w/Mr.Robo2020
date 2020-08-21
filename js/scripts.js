@@ -15,7 +15,7 @@ function createNumberArray(userInput) {
       }
     }
     return numberArray;
-  } else if (isNaN(userInput) || userInput.charAt(0) === "-") {
+  } else {
     alert("no");
   }
 }
