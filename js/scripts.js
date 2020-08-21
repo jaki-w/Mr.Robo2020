@@ -20,10 +20,17 @@ function createNumberArray(userInput) {
   }
 }
 
+function checkForNegatives(userInput) {
+  if (userInput < 0) {
+    alert("no");
+  }
+}
+
 $(document).ready(function() {
   $("#generateList").click(function(event) {
     event.preventDefault();
     let userInput = parseInt($("input#userInput").val());
+    checkForNegatives(userInput);
     let numberArray = createNumberArray(userInput);
     $("#showLater").text(numberArray);
 
