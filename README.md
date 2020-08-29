@@ -47,29 +47,31 @@ _For questions or comments please email jaki.widby@gmail.com_
 
 ## Specifications
 
+[X] Spec: _Empty fields, letters, and negative numbers will generate an error message_
+  * Input: "-2"
+  * Output: "Please enter a positve number"
+
 [X] Spec: _The program returns a range of numbers   from 0 to the user's inputted number._
   * Input: "5"
   * Output: "0, 1, 2, 3, 4, 5"
-
-[X] Spec: _The program replaces all numbers containing the number 3 with "Won't you be my neighbor?"_
-  * Input: "5"
-  * Output: "0, 1, 2, Won't you be my neighbor?" 4, 5"
-
-[X] Spec: _The program replaces all numbers containing the number 2 with "Boop!"_
-  * Input: "5"
-  * Output: "0, 1, Boop!, 3, 4, 5"
 
 [X] Spec: _The program replaces all numbers containing the number 1 with "Beep!"_
   * Input: "5"
   * Output: "0, Beep!, 2, 3, 4, 5"
 
+[X] Spec: _The program replaces all numbers containing the number 2 with "Boop!"_
+  * Input: "5"
+  * Output: "0, 1, Boop!, 3, 4, 5"
+
+[X] Spec: _The program replaces all numbers containing the number 3 with "Won't you be my neighbor?"_
+  * Input: "5"
+  * Output: "0, 1, 2, Won't you be my neighbor?" 4, 5"
+
+
 [X] Spec: _Higher number exceptions apply before lower number exceptions apply_
   * Input: "13"
   * Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?"
 
-[X] Spec: _Empty fields, letters, and negative numbers will generate an error message_
-  * Input: "-2"
-  * Output: "Please enter a positve number"
 
 [X] Spec: _The program will collect user inputted name and display it in message for numbers containing "3"_
   * Input: "Jaki" "3"
